@@ -1,0 +1,48 @@
+<!-- Author: Ahmed Darwish -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <h1>My Birthday Countdown!</h1> 
+    <!-- Define a section to create the timer in -->
+    <div class="countdown-container"> 
+        <div class="countdown days-c">
+         <p class="text" id="days">000</p>
+         <span>Days</span>
+        </div>
+        <div class="countdown hours-c">
+            <p class="text" id="hours">00</p>
+            <span>Hours</span>
+           </div>
+           <div class="countdown minutes-c">
+            <p class="text" id="minutes">00</p>
+            <span>Minutes</span>
+           </div>
+           <div class="countdown seconds-c">
+            <p class="text" id="seconds">00</p>
+            <span>Seconds</span>
+           </div>
+    </div>
+    <br>
+    <br>
+<!-- Creating an input method fot the user to enter his/her Birthday -->
+<p> 
+<label for="date" class="label">Enter your Birthday  </label><input class="dateClass" id="date" type="text" placeholder="YYYY MM DD">
+</p> <br>
+<br>
+<button class="button" id="start">Start</button>
+<br>
+<br>
+<br>
+<br>
+<footer class="footer">&copy;Ahmed Darwish 2022</footer>
+</body>
+</html>
