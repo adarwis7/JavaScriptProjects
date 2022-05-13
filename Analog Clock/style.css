@@ -100,7 +100,7 @@ body{
     transform: rotate(270deg);
 }
 .date{
-    color:dodgerblue;
+    color:whitesmoke;
     position:absolute;
     font-size: 50px;
     font-weight: bold;
