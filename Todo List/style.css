@@ -6,6 +6,12 @@ body{
     background-color: #f5f5f5;
     margin: 0;
     font-family: 'Shadows Into Light', cursive;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+
 }
 h1{
     text-align: center;
@@ -24,13 +30,13 @@ form{
     display: block;
     width: 100%;
     box-shadow: 0 2px 2px rgb(44, 153, 208);
+    
 }
 .input::placeholder{
     color: rgb(44, 153, 208);
     opacity: 0.3;
 }
 .todos{
-    
     color: black;
     font-size: 1rem;
     padding: 0;
@@ -38,5 +44,20 @@ form{
     list-style-type: none;
 }
 .todos li{
+    cursor: pointer;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-top: 3px solid #e5e5e5
+
+}
+.todos li.completed {
+    text-decoration:line-through ;
+    color: #b5b5b5;
     
+}
+small{
+    color: #b5b5b5;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
 }
